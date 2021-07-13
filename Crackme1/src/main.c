@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include<string.h>
 
 
 int main()
@@ -36,13 +36,13 @@ int main()
     printf("╚██████╗██║  ██║██║  ██║╚██████╗██║  ██╗██║ ╚═╝ ██║███████╗    ╚██╔═██╔╝ ██║\n");
     printf(" ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝     ╚═╝ ╚═╝  ╚═╝\n\n");
     
-  
-    char password = " ";
+    char password = "azerty";
+    char input = " ";
     printf("Enter the password please: ");
-    scanf("%s",&password);
+    scanf("%s",&input);
     printf("\n\n");
     
-    if (password == "cheese")
+    if (strcmp(input,password) == 0)
     {
         printf("Well done !");
     }
