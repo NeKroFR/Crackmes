@@ -36,16 +36,16 @@ int main()
     printf("╚██████╗██║  ██║██║  ██║╚██████╗██║  ██╗██║ ╚═╝ ██║███████╗    ╚██╔═██╔╝ ██║\n");
     printf(" ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝     ╚═╝ ╚═╝  ╚═╝\n\n");
     
-    char password = "this is the true password";
+    char password = "aa";
     char input = " ";
     printf("Enter the password please: ");
     scanf("%s",&input);
+    printf("\n\n");
     
     if (password == input)
     {
         printf("Well done !");
     }
-    
     else
     {
         printf("This is not the good password !");
