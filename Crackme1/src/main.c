@@ -4,7 +4,7 @@
 
 int main()
 {
-    printf("                 _.--""""''-.\n");
+    printf("\033[0;32m                 _.--""""''-.\n");
     printf("              .-'            '.\n");
     printf("            .'                 '.\n");
     printf("           /            .        )\n");
@@ -38,17 +38,17 @@ int main()
     
     char password = "azerty";
     char input = " ";
-    printf("Enter the password please: ");
+    printf("\033[0;35mEnter the password please: ");
     scanf("%s",&input);
     printf("\n\n");
     
     if (strcmp(input,password) == 0)
     {
-        printf("Well done !");
+        printf("\033[0;36mWell done !");
     }
     else
     {
-        printf("This is not the good password !");
+        printf("\033[0;31mThis is not the good password !");
     }
     
     
