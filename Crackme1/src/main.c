@@ -36,8 +36,8 @@ int main()
     printf("╚██████╗██║  ██║██║  ██║╚██████╗██║  ██╗██║ ╚═╝ ██║███████╗    ╚██╔═██╔╝ ██║\n");
     printf(" ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝     ╚═╝ ╚═╝  ╚═╝\n\n");
     
-    char password = "azerty";
-    char input = " ";
+    char password[] = "azerty";
+    char input[250] = " ";
     printf("\033[0;35mEnter the password please:\033[0;37m ");
     scanf("%s",&input);
     printf("\n\n");
