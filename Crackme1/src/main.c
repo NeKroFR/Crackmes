@@ -36,13 +36,13 @@ int main()
     printf("╚██████╗██║  ██║██║  ██║╚██████╗██║  ██╗██║ ╚═╝ ██║███████╗    ╚██╔═██╔╝ ██║\n");
     printf(" ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝     ╚═╝ ╚═╝  ╚═╝\n\n");
     
-    char password = "aa";
-    char input = " ";
+  
+    char password = " ";
     printf("Enter the password please: ");
-    scanf("%s",&input);
+    scanf("%s",&password);
     printf("\n\n");
     
-    if (password == input)
+    if (password == "cheese")
     {
         printf("Well done !");
     }
