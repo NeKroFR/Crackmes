@@ -1,5 +1,4 @@
-#include <iostream>
-#include <stdlib.h>
+#include <stdio.h>
 
 
 
@@ -37,14 +36,10 @@ int main()
     printf("╚██████╗██║  ██║██║  ██║╚██████╗██║  ██╗██║ ╚═╝ ██║███████╗    ╚██╔═██╔╝ ██║\n");
     printf(" ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝     ╚═╝ ╚═╝  ╚═╝\n\n");
     
-    string password = " ";
+    char password = " ";
     printf("Enter the password please: ");
     scanf("%s",&password);
     printf("%s",password);
 
     return 0;
 }
-
-
-
-                                                                          
