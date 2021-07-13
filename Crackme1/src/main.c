@@ -38,7 +38,7 @@ int main()
     
     char password = "azerty";
     char input = " ";
-    printf("\033[0;35mEnter the password please: ");
+    printf("\033[0;35mEnter the password please:\033[0;37m ");
     scanf("%s",&input);
     printf("\n\n");
     
