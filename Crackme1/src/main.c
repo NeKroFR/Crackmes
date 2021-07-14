@@ -29,7 +29,7 @@ int main()
     printf("╚██████╗██║  ██║██║  ██║╚██████╗██║  ██╗██║ ╚═╝ ██║███████╗    ╚██╔═██╔╝ ██║\n");
     printf(" ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝     ╚═╝ ╚═╝  ╚═╝\n\n");
     
-    char password[] = "*****";
+    char password[] = "dGhpcyBpcyBhIHZlcnkgdmVyeSBzdHJvbmcgcGFzc3dvcmQ=";
     char input[250] = " ";
     printf("\033[0;35mEnter the password please:\033[0m ");
     scanf("%s",&input);
