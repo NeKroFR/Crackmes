@@ -1,19 +1,21 @@
 #include <iostream>
+#include<string.h>
+
 
 int main() {
-  str input = "";
-  str password = "password";
+  char input[250] = "";
+  char pwd[] = "password";
   std::cout << "Enter the password please: ";
-  cin >> inputs;
-  
-  if (strcmp (key,buffer) != 0)
+  std::cin >> input;
+
+  if (strcmp (input, pwd) == 0)
     {
-        cout << "Well done !\n";  
+        std::cout << "Well done !\n";
     }
     else
     {
-        cout << "his is not the good password !\nTry Again !";
+        std::cout << "This is not the good password !\nTry Again !\n";
     }
-      
+
     return 0;
 }
