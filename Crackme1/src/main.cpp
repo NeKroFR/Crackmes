@@ -2,7 +2,7 @@
 
 int main() {
   str input = "";
-  str password = "";
+  str password = "password";
   std::cout << "Enter the password please: ";
   cin >> inputs;
   
